@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF7949 </color>
+    <color name="purple_light_20">#33FF5722</color>
+    <color name="purple_light">#FF5722</color>
+    <color name="color_pink">#E91E63</color>
+    <color name="color_pink_20">#33E91E63</color>
+    <color name="purple_500">#FF7949 </color>
+    <color name="purple_700">#FF7949 </color>
+    <color name="teal_200">#FF7949 </color>
+    <color name="teal_700">#FF7949 </color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FF7949</color>
+    <color name="app_color">#FF7949 </color>
+    <color name="colorAccent">#FF7949 </color>
+    <color name="bg">#0e1215</color>
+    <color name="background_color">#F4F2F3</color>
+    <color name="red">#FF7949 </color>
+    <color name="text_color">#1D2733</color>
+    <color name="green">#28B347</color>
+    <color name="lightGrey">#1a1b21</color>
+    <color name="duskYellow">#e3ad20</color>
+    <color name="colorNoInternetGradCenter">#FF7949</color>
+    <color name="colorNoInternetGradCenterH">#FF7949</color>
+    <color name="colorNoInternetGradEnd">#FF7949</color>
+    <color name="colorNoInternetGradEndH">#FF7949</color>
+    <color name="colorNoInternetGradStart">#527cf1</color>
+    <color name="colorNoInternetGradStartH">#ffd07f</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#55000000</color>
+    <color name="good_morning">#fff</color>
+    <color name="good_night">#FFC107</color>
+    <color name="good_afternoon">#F44336</color>
+    <color name="line_about">#d9dadb</color>
+    <color name="text_light">#626262</color>
+
+    //onboarding colors
+    <color name="background">#F0F4F3</color>
+    <color name="buttontext">#50C2C9</color>
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#50C2C9</color>
+</resources>

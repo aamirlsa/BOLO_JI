@@ -1,0 +1,3 @@
+rootProject.name = "Real Live Video Call Chat"
+include ':app'
+include ':webrtcpeer'

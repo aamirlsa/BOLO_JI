@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Bolo ji</string>
+    <string name="app_name2">Bolo ji</string>
+
+    <string name="grp_chat">Group Chat</string>
+    <string name="select_room">Select Chat Room</string>
+    <string name="com_mopub_nativeads_sponsored_by">Sponsored by %s</string>
+    <string name="native_icon_image">native_icon_image</string>
+    <string name="native_main_image">native_main_image</string>
+    <string name="advertisement">Advertisement</string>
+    <string name="native_privacy_information_icon_image">Privacy Information Icon image</string>
+    <string name="learn_more">Learn More</string>
+
+    <!--day night card-->
+    <string name="title_good_night">Good night</string>
+    <string name="title_good_evening">Good evening</string>
+    <string name="title_good_afternoon">Good afternoon</string>
+    <string name="title_good_morning">Good morning</string>
+    <string name="title_good_day">Good day</string>
+    <string name="made_with_in">Made With ❤ in India</string>
+    <string name="app_description">Premium Quotes app is an android application.Quotes Pro App has user-friendly interface with easy to manage</string>
+
+
+    <string name="airplane">Airplane mode</string>
+    <string name="airplane_on">You have turned on the airplane mode.</string>
+    <string name="chip_text">Chip text</string>
+    <string name="mobile">Mobile data</string>
+    <string name="no_internet_body">You are not connected to the Internet</string>
+    <string name="no_internet_title">No Internet</string>
+    <string name="turn_off">Please turn off</string>
+    <string name="turn_on">Please turn on</string>
+    <string name="wifi_on">Wifi</string>
+    <string name="disconnect_call">Disconnect Call</string>
+    <string name="capture_format_change_text">Slide to change capture format</string>
+    <string name="toggle_debug">Toggle debug view</string>
+    <string name="search_menu_title">Search</string>
+    <string name="search_user">Searching Opponent</string>
+
+
+    <string name="AdMob_Banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdMob_Native">ca-app-pub-</string>
+    <string name="AdMob_Interstitial">ca-app-pub-</string>
+    <string name="AdMob_OpenApp">ca-app-pub</string>
+    <string name="privacy">https://sites.google.com/view/bolojilivevideochat/home</string>
+
+    <string name="play_more_apps">https://play.google.com/store/apps/developer?id=YOUR+PLAY+URL</string>
+
+    <string name="contact_us_email">sunilkkumar00116@gmail.com</string>
+    <string name="extra_subject">Best App for dating</string>
+    <string name="extra_text">Best Follow and Unfollow app is Best App on Play Store</string>
+    <string name="click_to_make_call">Click To Make Call</string>
+    <string name="random_call_1">Random Call 1</string>
+    <string name="random_call_2">Random Call 2</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="by_using_live_video_call_chat_you_must_agree_with_our_terms_conditions_try_to_keep_your_face_visible_violators_of_terms_will_be_permanently_blocked">By using Live video Call Chat you must agree with Our Terms Conditions.Try to keep your face visible. Violators of Terms will be Permanently blocked.</string>
+
+    <string name="heading_one">Find Your Special Someone</string>
+    <string name="heading_two">More Profiles More Dates</string>
+    <string name="heading_three">Interact Around The World</string>
+    <string name="heading_fourth">CHAT</string>
+
+
+</resources>

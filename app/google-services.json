@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327691971881",
+    "project_id": "boloji-60383",
+    "storage_bucket": "boloji-60383.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327691971881:android:a00a57db3ec6d3bad95b38",
+        "android_client_info": {
+          "package_name": "com.boloji.videocallchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327691971881-7ngnvlr6g1lu5soecqh0buju1jj777ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnMHQLEPODfyZKkLY2mCcjj75Hoc7eHvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327691971881-7ngnvlr6g1lu5soecqh0buju1jj777ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

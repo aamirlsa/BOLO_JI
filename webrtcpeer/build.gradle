@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+    }
+}
+
+apply plugin: 'com.android.library'
+
+Integer VERSION_CODE = 2017072013
+String VERSION_NAME = "2.1.0"
+
+android {
+    compileSdk 32
+
+
+    sourceSets.main {
+        jniLibs.srcDir 'libs'
+        //disable automatic ndk-build call
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 32
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    namespace 'com.nhancv.webrtcpeer'
+    lint {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+ implementation files('libs/autobanh.jar')
+  implementation 'org.webrtc:google-webrtc:1.0.22672' //1.0.22672 //1.0.23995
+    implementation 'org.java-websocket:Java-WebSocket:1.3.7'
+}

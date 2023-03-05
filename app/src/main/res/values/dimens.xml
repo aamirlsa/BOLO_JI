@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="_100sdp">100.00dp</dimen>
+    <dimen name="_25sdp">25dp</dimen>
+    <dimen name="_10sdp">10dp</dimen>
+    <dimen name="_16sdp">16sp</dimen>
+    <dimen name="_5sdp">5dp</dimen>
+    <dimen name="_70sdp">70dp</dimen>
+    <dimen name="_12sdp">12sp</dimen>
+    <dimen name="_14sdp">14sp</dimen>
+    <dimen name="_3sdp">3dp</dimen>
+    <dimen name="_50sdp">50dp</dimen>
+    <dimen name="_20sdp">20dp</dimen>
+    <dimen name="_1sdp">1dp</dimen>
+    <dimen name="button_size">36dp</dimen>
+    <dimen name="button_size2">38dp</dimen>
+    <dimen name="button_text_size">12sp</dimen>
+    <dimen name="button_width">118dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_xx_large">30dp</dimen>
+    <dimen name="margin_xxxxx_large">90dp</dimen>
+    <dimen name="dialog_height">450dp</dimen>
+    <dimen name="dialog_width">320dp</dimen>
+
+</resources>

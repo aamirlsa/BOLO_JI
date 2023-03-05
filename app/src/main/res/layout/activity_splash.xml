@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maingradianbg">
+
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        app:mwhCloseColor="@color/color_pink"
+        app:mwhIsRunning="true"
+        app:mwhStartColor="@color/color_pink_20" />
+
+
+
+
+    <ImageView
+        android:id="@+id/logoicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/sp" />
+
+    <TextView
+        android:id="@+id/textid"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@+id/logoicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="BOLO JI"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@+id/textid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical">
+
+        <com.wang.avi.AVLoadingIndicatorView
+
+            style="@style/AVLoadingIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            app:indicatorColor="@color/white"
+            app:indicatorName="BallTrianglePathIndicator" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <RelativeLayout
+
+           android:id="@+id/relative"
+           android:padding="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="220dp">
+
+
+           <com.makeramen.roundedimageview.RoundedImageView
+               android:id="@+id/iv_materiala"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scaleType="centerCrop"
+               android:src="@drawable/aamdefault"
+               app:riv_corner_radius="5dp" />
+
+           <TextView
+               android:id="@+id/title_welcome"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingStart="15dp"
+               android:paddingTop="15dp"
+               android:paddingEnd="15dp"
+               android:text="@string/title_good_morning"
+               android:textColor="@color/white"
+               android:textSize="23sp"
+               android:textStyle="bold" />
+
+           <TextView
+               android:id="@+id/title_welcome_su"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:paddingStart="15dp"
+               android:paddingEnd="15dp"
+               android:text="@string/made_with_in"
+               android:textColor="@color/white" />
+
+       </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lln"
+        android:layout_below="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/videocall"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="@drawable/bg_btn">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/videocall"
+                android:backgroundTint="#CA9979" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Video Call"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Random Video call"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.5dp"
+            android:layout_weight="1.0"
+
+            app:cardCornerRadius="15dp">
+
+
+
+        <RelativeLayout
+            android:id="@+id/groupchat"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="@color/purple_light_20">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/groupchat"
+                android:backgroundTint="@color/purple_light" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="95dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Group Chat"
+                    android:textColor="@color/purple_light"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Connect Random People"
+                    android:textColor="@color/purple_light"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <RelativeLayout
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/ads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#dfdfdf"
+            android:minHeight="250dp">
+
+            <FrameLayout
+                android:id="@+id/mobadslayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:background="@color/white"
+                android:orientation="vertical" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+   </RelativeLayout>
+</ScrollView>
